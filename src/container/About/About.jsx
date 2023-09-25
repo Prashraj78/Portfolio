@@ -26,7 +26,7 @@ const About = () => {
               Reactjs.
             </li>
             <li className="p-text">
-              Completed a rigorous full stack web development course from Relevel By Unacedemy with over 1000+ hours of hands-on coding experience.
+              Completed a rigorous front-end web development course from Relevel By Unacedemy with over 1000+ hours of hands-on coding experience.
             </li>
             <li className="p-text">
               Experienced in developing responsive web applications and dynamic
