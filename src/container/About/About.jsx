@@ -6,6 +6,8 @@ import { images } from "../../constants";
 const About = () => {
   return (
     <>
+
+    
       <h2 className="head-text" style={{ marginBottom: "1rem" }}>
         All <span> About </span> Me
       </h2>
