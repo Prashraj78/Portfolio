@@ -10,7 +10,7 @@ const About = () => {
 
       <h2 className="head-text" style={{ marginBottom: "1rem" }}>
         All <span> About </span> Me
-      </h2>
+      </h2> 
       <div className="app__profiles">
         <div className="app__profile-item">
           <img src={images.aboutanimated} alt="" />
