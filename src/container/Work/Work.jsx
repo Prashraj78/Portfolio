@@ -51,7 +51,7 @@ const Work = () => {
       
 
 <h2 className="head-text">
-        Working on project <span>will be </span> upload soon
+        Working on projects <span>will be </span> upload soon
       </h2>
       </motion.div>
     </>
