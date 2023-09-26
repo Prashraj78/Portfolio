@@ -9,7 +9,6 @@ const NavigatonDots = ({ active }) => {
         "work",
         "skills",
         "githubstats",
-        "testimonials",
         "contact",
       ].map((item, index) => (
         <a
