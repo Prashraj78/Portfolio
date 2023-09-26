@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
@@ -7,6 +7,46 @@ import { ToastContainer, toast } from "react-toastify";
 
 
 const Footer = () => {
+
+
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const isFormValid = name.trim() !== "" && email.trim() !== "" && message.trim() !== "";
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (isFormValid) {
+      // Your form submission logic here
+    } else {
+      toast.error("Please fill in all fields.");
+    }
+  };
 
 
 
@@ -70,13 +110,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="app__footer-form app__flex">
-        <form action="https://getform.io/f/21edf317-33aa-44bb-b19f-91ea37cc4229" method="POST">
+
+
+
+
+        <form action="https://getform.io/f/21edf317-33aa-44bb-b19f-91ea37cc4229" method="POST" required>
           <label>Name :</label>
           <input
             className="p-text"
             type="text"
             placeholder="Your Name"
             name="user_name"
+            value={name}
+            onChange={handleNameChange}
           />
           <label>Email :</label>
           <input
@@ -84,15 +130,23 @@ const Footer = () => {
             type="email"
             placeholder="Your Email"
             name="user_email"
+            value={email}
+            onChange={handleEmailChange}
           />
           <label>Message :</label>
           <textarea
             className="p-text"
             placeholder="Your Message"
             name="message"
+            value={message}
+            onChange={handleMessageChange}
           />
-          <button type="submit" className="p-text">
-            Send Message
+          <button type="submit" className="p-text"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            disabled={!isFormValid}>
+            {!isFormValid ?  "All Field Required " : "Send Message"}
+
           </button>
         </form>
       </div>
