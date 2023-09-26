@@ -65,7 +65,7 @@ const Header = () => {
         whileInView={sacaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.react, images.javascript, images.tailwind].map((circle) => (
+        {[images.javascript, images.react, images.tailwind].map((circle) => (
           <div className="circle-cmp app__flex" key={`circel-${circle}`}>
             <img src={circle} alt="circle" />
           </div>
