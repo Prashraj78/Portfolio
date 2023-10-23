@@ -10,17 +10,7 @@ import "./Work.scss";
 const works = [
   {
     title: "Exeperweb (agency website)",
-    description:`
-Sole Project Development: I independently created a project at Cinoid Web, using React, Tailwind CSS, and React Redux. Framer Motion was added for engaging animations.
-
-Learning and Skill Growth: The project expanded my skills across various technologies, deepening my knowledge of React and mastery of Redux for state management.
-
-Versatile Role: Working solo, I handled diverse responsibilities, gaining proficiency in both design and functionality.
-
-Practical Application: The project provided a platform to apply theoretical knowledge practically, enhancing my learning journey.
-
-Milestone Achievement: This project marked a significant milestone in my web development journey, fueling my enthusiasm for future exploration and growth in this field.
-`,
+    description:"I independently developed a project at Cinoid Web using React, Tailwind CSS, and Redux. Framer Motion was employed for animations, expanding my skills and knowledge. Working solo, I handled various responsibilities, enhancing my proficiency in design and functionality. This project marked a significant milestone in my web development journey, fueling my enthusiasm for future growth.",
     techStack:
       "Html, Css, Tailwind css,  React JS,  Git, farmer-motion",
     tags: ["React", "All"],
