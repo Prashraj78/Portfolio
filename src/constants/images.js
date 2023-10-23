@@ -24,7 +24,7 @@ import spotify from "../assets/spotify.png";
 import aboutanimated from "../assets/aboutanimated.gif";
 import postman from "../assets/postman.png";
 import linkedin from "../assets/linkedin.png";
-
+import exeper from '../assets/exeper.png';
 import github from "../assets/github.png";
 
 
@@ -33,6 +33,7 @@ export default {
   email,
   mobile,
   api,
+  exeper,
   css,
   git,
   html,
