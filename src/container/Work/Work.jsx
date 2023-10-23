@@ -14,7 +14,7 @@ const works = [
     techStack:
       "Html, Css, Tailwind css,  React JS,  Git, farmer-motion",
     tags: ["React", "All"],
-    imgUrl: images.Bookozee,
+    imgUrl: images.exeper,
     projectLink: "https://exeper-web.vercel.app/",
     codeLink: "https://github.com/",
   },
