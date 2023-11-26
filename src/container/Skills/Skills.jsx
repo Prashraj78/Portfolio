@@ -51,9 +51,20 @@ const skills = [
 ];
 
 const experiences = [
+    {
+    year: "November-2023 - Present",
+    works: [
+      {
+        name: "Frontend Developer",
+        company: "Achieveee Design & Development Pvt. Ltd.",
+        desc: "I'm a Frontend Developer at Cinoid Web, specializing in HTML5, CSS, JavaScript, and React.js. My skill set includes Tailwind CSS for efficient styling and Redux.js for state management, enabling me to create responsive and dynamic user interfaces.",
+      }
+    ]
+
+  },
 
   {
-    year: "Augest-2023 - Present",
+    year: "Augest-2023 - Nov-2023",
     works: [
       {
         name: "Frontend Developer",
