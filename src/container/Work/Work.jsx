@@ -10,13 +10,23 @@ import "./Work.scss";
 const works = [
   {
     title: "Exeperweb (agency website)",
-    description:"I independently developed a project at Cinoid Web using React, Tailwind CSS, and Redux. Framer Motion was employed for animations, expanding my skills and knowledge. Working solo, I handled various responsibilities, enhancing my proficiency in design and functionality. This project marked a significant milestone in my web development journey, fueling my enthusiasm for future growth.",
-    techStack:
-      "Html, Css, Tailwind css,  React JS,  Git, farmer-motion",
-    tags: ["React", "All"],
-    imgUrl: images.exeper,
-    projectLink: "https://exeper-web.vercel.app/",
-    codeLink: "https://github.com/",
+      description: "I independently developed a project at Cinoid Web using React, Tailwind CSS, and Redux. Framer Motion was employed for animations, expanding my skills and knowledge. Working solo, I handled various responsibilities, enhancing my proficiency in design and functionality. This project marked a significant milestone in my web development journey, fueling my enthusiasm for future growth.",
+        techStack:
+    "Html, Css, Tailwind css,  React JS,  Git, farmer-motion",
+      tags: ["React", "All"],
+        imgUrl: images.exeper,
+          projectLink: "https://exeper-web.vercel.app/",
+            codeLink: "https://github.com/",
+  },
+  {
+    title: "YahyaBooking (Booking.com clone)",
+      description: "YahyaBooking is a project inspired by the functionality and design of Booking.com. Developed as a part of my internship with Cinoid Web in Jalgaon, this project showcases my skills in front-end development. It's a comprehensive exercise in creating a responsive and interactive booking platform, leveraging a modern tech stack.",
+        techStack: "Html, Css, Tailwind CSS, React JS, JS, React-Icons",
+          tags: ["React", "All"],
+            imgUrl: images.yahya,
+              projectLink: "https://yahya-bookingcom.vercel.app/",
+                codeLink: "https://github.com/"
+
   },
 
 ];
