@@ -26,6 +26,8 @@ import postman from "../assets/postman.png";
 import linkedin from "../assets/linkedin.png";
 import exeper from '../assets/exeper.png';
 import github from "../assets/github.png";
+import yahya from "../assets/yahya.png"
+
 
 
 export default {
@@ -33,6 +35,7 @@ export default {
   email,
   mobile,
   api,
+  yahya,
   exeper,
   css,
   git,
