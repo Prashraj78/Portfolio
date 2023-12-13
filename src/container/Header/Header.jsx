@@ -36,7 +36,7 @@ const Header = () => {
             <p className="p-text">Front-end Developer</p>
           </div>
           <a
-            href="https://drive.google.com/file/d/1IJBaE_A2iU2T3_t-Kj0twu0ZWyUUzLHN/view?usp=share_link"
+            href="https://drive.google.com/file/d/13gem6ba1JCVWQw6QaqXKxKPl5ogpJXeG/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
