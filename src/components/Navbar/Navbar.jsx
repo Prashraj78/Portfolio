@@ -27,7 +27,7 @@ const Navbar = () => {
             <a
               href={
                 el === "resume"
-                  ? "https://drive.google.com/file/d/1IJBaE_A2iU2T3_t-Kj0twu0ZWyUUzLHN/view?usp=share_link"
+                  ? "https://drive.google.com/file/d/13gem6ba1JCVWQw6QaqXKxKPl5ogpJXeG/view?usp=sharing"
                   : `#${el}`
               }
               target={el === "resume" ? "_blank" : ""}
