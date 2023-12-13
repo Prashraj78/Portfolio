@@ -28,6 +28,16 @@ const works = [
                 codeLink: "https://github.com/"
 
   },
+  {
+    title: "Pro-Ventures (Real Estate )",
+      description: "Contributed as a Frontend UI Developer to Proventure's real estate project, employing Blockchain and DApp for backend functionality. Leveraged a tech stack comprising React, Tailwind CSS, and Framer Motion, ensuring a seamless execution based on Figma design specifications for an Australian client. This freelancing endeavor marked a successful debut, earning revenue on an hourly basis. The collaborative experience with the Proventure team enhanced teamwork and communication skills, fostering a dynamic and productive work environment.",
+        techStack: "Html, Css, Tailwind CSS, React JS, JS, Farmer-Motion",
+          tags: ["React", "All"],
+            imgUrl: images.pro,
+              projectLink: "https://pro-ventures-landing-page.vercel.app/",
+                codeLink: "https://github.com/"
+
+  },
 
 ];
 
